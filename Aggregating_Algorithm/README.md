@@ -15,6 +15,10 @@ The sixth and seventh columns contain predictions by the second bookmaker, the e
 
 Processing the dataset and running the function on the predictions by four bookmakers to get the Aggregating Algorithm predictions.
 
+Total Loss on AA_tennis_odds.m: 1972.3 # total loss of the AA
+
+Total Loss Specialist on AA_Specialist_Experts.m: 1972.5 # total loss of the AA with a specialist expert
+
 The first grapgh shows five cumulative losses vs. time, LossE1(t), LossE2(t),LossE3(t), LossE4(t) of the experts and LossL(t) of the Aggregating Algorithm.
 
 ![image](https://user-images.githubusercontent.com/43922347/125491989-6a605f20-0622-4a3d-8e0d-25b18e367e1f.png)
