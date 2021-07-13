@@ -1,3 +1,5 @@
+% Aggregating Algorithm on tennis bookmakers dataset
+
 % Loading the data
 tennis1 = dlmread('tennis1.txt');
 % Feeding the experts predictions
