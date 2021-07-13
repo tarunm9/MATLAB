@@ -3,3 +3,4 @@ Calculate the principal components of a dataset of 5000 images of faces of famou
 These images are contained in the file pcafaces.mat
 Projecting the high dimensional data onto (a smaller space defined by) a few principal components and recovering the original high dimensional data by re-projecting back the projected data onto the
 original space.
+![image](https://user-images.githubusercontent.com/43922347/125481724-06b7b7ab-ee01-4b84-b174-5fc37698adf4.png)
