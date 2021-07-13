@@ -16,10 +16,13 @@ The sixth and seventh columns contain predictions by the second bookmaker, the e
 Processing the dataset and running the function on the predictions by four bookmakers to get the Aggregating Algorithm predictions.
 
 The first grapgh shows five cumulative losses vs. time, LossE1(t), LossE2(t),LossE3(t), LossE4(t) of the experts and LossL(t) of the Aggregating Algorithm.
-![image](https://user-images.githubusercontent.com/43922347/125490770-e015523b-287f-4e18-b719-01e246a5fdca.png)
+
+![image](https://user-images.githubusercontent.com/43922347/125491989-6a605f20-0622-4a3d-8e0d-25b18e367e1f.png)
 
 The second graph shows the following four differences vs. time: LossE1(t)−LossL(t), LossE2(t)−LossL(t), LossE3(t)−LossL(t), LossE4(t)−LossL(t).
-![image](https://user-images.githubusercontent.com/43922347/125490822-0dcace0d-c361-4440-b36a-c669552fbec8.png)
+
+![image](https://user-images.githubusercontent.com/43922347/125492057-f9c886f4-1426-4b5f-9ff3-53f424b9575f.png)
 
 The third graph shows the following four differences vs. time: LossE1(t) − Lossave(t), LossE2(t) − Lossave(t), LossE3(t) − Lossave(t), LossE4(t) − Lossave(t), where Lossave(t) is the cumulative loss of the following simple strategy. On every steps it takes the predictions of experts E1, E2, E3, and E4 and averages them with equal weights 1/4: γt = (1/4)*(γ1t + γ2t + γ3t + γ4t).
-![image](https://user-images.githubusercontent.com/43922347/125490862-1acf44e1-0819-4469-94cd-acd360b40606.png)
+
+![image](https://user-images.githubusercontent.com/43922347/125492132-d5e15940-b3a0-44d2-8e61-36cf8af1753f.png)
