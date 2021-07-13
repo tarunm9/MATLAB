@@ -1,4 +1,4 @@
-% WRITE YOU CODE HERE
+% Principal Components Analysis
 
 %PCA-Part 1
 %step 1
